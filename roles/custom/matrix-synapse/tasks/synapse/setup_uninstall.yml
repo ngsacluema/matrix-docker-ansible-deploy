@@ -34,3 +34,5 @@
         path: "{{ matrix_synapse_base_path }}/external_prometheus.yml.example"
         state: absent
       when: "not matrix_synapse_metrics_proxying_enabled | bool"
+
+# Update: 2025-10-17
